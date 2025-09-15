@@ -185,8 +185,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  margin: 0;
-  padding: 0;
 }
 
 .visually-hidden {
@@ -206,6 +204,7 @@ img {
   margin-right: 40px;
   width: calc((100% - 72px) / 4);
   background-color: #fff;
+  display: flex;
 }
 
 .footer-logo-part {
