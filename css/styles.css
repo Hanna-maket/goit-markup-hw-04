@@ -373,3 +373,7 @@ p {
 .card-box {
   padding: 32px 0;
 }
+
+.card-item-text {
+  text-align: center;
+}
