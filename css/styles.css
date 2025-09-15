@@ -201,7 +201,6 @@ img {
 }
 
 .advantages-item {
-  margin-right: 40px;
   width: calc((100% - 72px) / 4);
   background-color: #fff;
 }
