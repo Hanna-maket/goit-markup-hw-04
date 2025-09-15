@@ -204,7 +204,6 @@ img {
   margin-right: 40px;
   width: calc((100% - 72px) / 4);
   background-color: #fff;
-  display: flex;
 }
 
 .footer-logo-part {
