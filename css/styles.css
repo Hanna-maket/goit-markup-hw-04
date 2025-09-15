@@ -201,10 +201,8 @@ img {
 }
 
 .advantages-item {
-  margin-right: 40px;
   width: calc((100% - 72px) / 4);
   background-color: #fff;
-  text-align: left;
 }
 
 .footer-logo-part {
@@ -279,6 +277,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: left;
 }
 
 .portfolio-box {
@@ -295,7 +294,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
+  text-align: left;
 }
 
 /* Our Team */
