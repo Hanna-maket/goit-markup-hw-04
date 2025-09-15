@@ -185,6 +185,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  margin: 0;
+  padding: 0;
 }
 
 .visually-hidden {
