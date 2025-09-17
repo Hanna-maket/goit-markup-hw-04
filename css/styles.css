@@ -204,12 +204,12 @@ img {
   margin: 0 auto;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404BBF;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-title {
@@ -455,4 +455,11 @@ p {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
+}
+
+.icon {
+  fill: currentColor;
+  /* бере колір з батьківського тексту */
+  color: #2e2f42;
+  /* основний темний */
 }
