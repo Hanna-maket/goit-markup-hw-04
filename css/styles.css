@@ -596,8 +596,6 @@ p {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
   text-transform: lowercase;
-  font-family: "Roboto", sans-serif;
-  color: #fff;
 }
 
 .social-footer {
@@ -617,4 +615,9 @@ p {
 
 .social-icon-footer {
   fill: #f4f4fd;
+}
+
+.page-footer .footer-items {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
 }
