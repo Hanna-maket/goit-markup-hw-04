@@ -253,6 +253,47 @@ img {
   color: #f4f4fd;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.footer-info {
+  margin-right: 120px;
+}
+
+.social-list-footer {
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.social-link-footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus {
+  background-color: #31d0aa;
+}
+
+.social-icon-footer {
+  width: 24px;
+  height: 24px;
+  fill: #f4f4fd;
+  /* колір іконки */
+}
+
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -483,7 +524,6 @@ p {
 .portfolio-item-cover {
   position: relative;
   overflow: hidden;
-
 }
 
 .portfolio-item:hover .portfolio-item-text {
