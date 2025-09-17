@@ -115,8 +115,24 @@ img {
   color: #2e2f42;
 }
 
+.nav-link.current {
+  color: #404bbf;
+  position: relative;
+}
+
 .hero {
   gap: 40px;
+}
+
+/* підкреслення */
+.nav-link.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  /* відстань від тексту */
+  width: 100%;
+  height: 2px;
+  background-color: #404bbf;
 }
 
 .card-img {
@@ -125,8 +141,31 @@ img {
 
 .hero-section {
   background: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
+    url("../images/people-office.jpg");
+  background-size: cover;
+  /* щоб картинка заповнювала всю секцію */
+  background-position: center;
+  /* центрування картинки */
+  background-repeat: no-repeat;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 188px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-link.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  /* трохи ближче до тексту */
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 
 .item {
@@ -376,4 +415,25 @@ p {
 
 .card-item-text {
   text-align: center;
+}
+
+.portfolio-item-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #4d5ae5;
+  color: #f4f4fd;
+  padding: 32px;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item-cover {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-item:hover .portfolio-item-text {
+  transform: translateY(0);
 }
