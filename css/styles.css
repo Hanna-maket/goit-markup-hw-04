@@ -612,11 +612,6 @@ p {
   flex-direction: column;
 }
 
-.social-list-footer {
-  width: 40px;
-  height: 40px;
-}
-
 .social-link-footer:hover,
 .social-link-footer:focus {
   background-color: #31d0aa;
