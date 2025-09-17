@@ -255,12 +255,14 @@ img {
 
 .footer-container {
   display: flex;
-  align-items: baseline;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .footer-info {
   margin-right: 120px;
+  /* відступ між колонками */
+  max-width: 264px;
 }
 
 .social-list-footer {
@@ -566,4 +568,23 @@ p {
   /* бере колір з батьківського тексту */
   color: #2e2f42;
   /* основний темний */
+}
+
+.social-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white, #ffffff);
+  margin-bottom: 16px;
+}
+
+.footer-items {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+  text-transform: lowercase;
 }
