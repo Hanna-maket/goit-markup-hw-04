@@ -368,6 +368,7 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
+  flex-wrap: nowrap;
 }
 
 .social-link {
@@ -435,14 +436,12 @@ img {
   padding-left: 0;
   margin: 0;
   background-color: #FFF;
-  border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
   text-align: center;
 }
 
@@ -452,7 +451,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin: 0;
+  margin: 0
 }
 
 .card-team {
@@ -478,12 +477,8 @@ p {
 
 .card-list {
   display: flex;
-  flex-wrap: wrap;
-  /* дозволяє переносити елементи на наступний рядок */
   gap: 24px;
-  /* відстань між колонками */
-  justify-content: space-between;
-  /* рівномірний розподіл */
+  flex-wrap: wrap;
 }
 
 .portfolio-list {
@@ -509,10 +504,16 @@ p {
 }
 
 .card-item {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0 0 4px 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  padding-left: 0;
+  margin: 0;
+  background-color: #FFF;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
   overflow: hidden;
 }
 
